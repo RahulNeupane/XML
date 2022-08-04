@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!DOCTYPE student[
+    <!ELEMENT student (name,address,age,email)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+]>
+
+<student>
+    <name> Rahul</name>
+    <address>Kamalpokhari</address>
+    <age>22</age>
+    <email>nrahul503@gmail.com</email>
+</student>
